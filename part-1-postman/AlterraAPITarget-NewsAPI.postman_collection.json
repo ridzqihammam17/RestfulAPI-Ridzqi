@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "0b324711-6910-48ad-9ada-f81d78af4878",
+		"name": "AlterraAPITarget-NewsAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Top Headline - Indonesia",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=id&apiKey=2f8759b9ead0457e9064b14b074d9d87",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "id"
+						},
+						{
+							"key": "apiKey",
+							"value": "2f8759b9ead0457e9064b14b074d9d87"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET All About Covid - World",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=covid&from=2021-09-30&sortBy=popularity&apiKey=2f8759b9ead0457e9064b14b074d9d87",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "covid"
+						},
+						{
+							"key": "from",
+							"value": "2021-09-30"
+						},
+						{
+							"key": "sortBy",
+							"value": "popularity"
+						},
+						{
+							"key": "apiKey",
+							"value": "2f8759b9ead0457e9064b14b074d9d87"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET News From BBC Only - World",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=2f8759b9ead0457e9064b14b074d9d87",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "sources",
+							"value": "bbc-news"
+						},
+						{
+							"key": "apiKey",
+							"value": "2f8759b9ead0457e9064b14b074d9d87"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Sport Category - Indonesia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=id&category=sports&apiKey=2f8759b9ead0457e9064b14b074d9d87",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "id"
+						},
+						{
+							"key": "category",
+							"value": "sports"
+						},
+						{
+							"key": "apiKey",
+							"value": "2f8759b9ead0457e9064b14b074d9d87"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Technology Category - Indonesia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=id&category=technology&apiKey=2f8759b9ead0457e9064b14b074d9d87",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "id"
+						},
+						{
+							"key": "category",
+							"value": "technology"
+						},
+						{
+							"key": "apiKey",
+							"value": "2f8759b9ead0457e9064b14b074d9d87"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
